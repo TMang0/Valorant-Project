@@ -1,12 +1,12 @@
-*{
+* {
   padding: 0px;
   margin: 0px 0px -22px 0px;
 }
 
-ul{
+ul {
   list-style: none;
 }
-.container_navbar{
+.container_navbar {
   background-color: rgba(0, 0, 0, 90%);
   width: 100%;
   height: 105px;
@@ -15,7 +15,7 @@ ul{
   border-radius: 0px 0px 5px 5px;
 }
 
-.navbar{
+.navbar {
   margin-left: 10px;
   padding-top: 25px;
   display: flex;
@@ -44,16 +44,16 @@ ul{
   transition: all 0.4s;
 }
 
-.navbar img{
-width: 5rem;
-height: 3.5rem;
+.navbar img {
+  width: 5rem;
+  height: 3.5rem;
 }
 
-.position{
+.position {
   position: relative;
   text-align: center;
 }
-.imgclass{
+.imgclass {
   width: 100%;
   height: 50rem;
 }
@@ -63,7 +63,7 @@ height: 3.5rem;
   src: url("/assets/fonts/Valorant\ Font.ttf");
 }
 
-.textclass{
+.textclass {
   position: absolute;
   top: 40%;
   right: 55%;
@@ -72,7 +72,7 @@ height: 3.5rem;
   color: black;
 }
 
-.imginsideclass{
+.imginsideclass {
   position: absolute;
   top: 30%;
   right: 70%;
@@ -80,18 +80,18 @@ height: 3.5rem;
   height: 30rem;
 }
 
-.wrapgrid{
+.wrapgrid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   position: absolute;
   top: 35%;
 }
 
-.wrapgrid img{
+.wrapgrid img {
   width: 20rem;
   height: 30rem;
 }
-.wrapgrid img:hover{
+.wrapgrid img:hover {
   color: white;
   padding: 0.5rem;
   transition: all 0.5s;
